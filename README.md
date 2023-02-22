@@ -21,4 +21,7 @@
 asdf:
   asdf: https://naver.com
 ```
-* 
+
+* @Mapper: 00.xml 과 같이 sql문을 정의해놓은 파일과 많이 사용한다. sql문을 정의하고 그 결과를 정의해 놓은 모델에 매핑시키는 방식을 사용 -> sql문을 메소드로 매핑시켜준다
+* @Repository: @Mapper을 포함하고 있음, DB에 접근해서 데이터를 조회 및 조작하는 객체
+*  Controller -> Service -> Repository -> mapper.xml
